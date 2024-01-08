@@ -1,1 +1,1 @@
-Learning Reactcd
+Learning React
