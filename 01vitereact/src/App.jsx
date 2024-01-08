@@ -1,9 +1,8 @@
+import React from 'react'
 
 function App() {
-
-
   return (
-    <h1>Learning React with vite</h1>
+    <div>App</div>
   )
 }
 
