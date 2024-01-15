@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Greetings from "./Greetings.jsx";
-import DynamicContent from "./DynamicContent.jsx";
+// import Greetings from "./components/Greetings.jsx";
+import DynamicContent from "./components/DynamicContent.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
