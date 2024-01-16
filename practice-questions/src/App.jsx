@@ -1,6 +1,6 @@
 // import "./App.css";
-import Greetings from "./components/Greetings.jsx";
-// import MathOperations from "./components/MathOperations.jsx";
+// import Greetings from "./components/Greetings.jsx";
+import MathOperations from "./components/MathOperations.jsx";
 // import DynamicContent from "./components/DynamicContent.jsx";
 // import ItemList from "./components/ItemList.jsx";
 // import ShowMessage from "./components/ShowMessage";
@@ -33,11 +33,11 @@ function App() {
       {/* <ShowMessage show={"h"}/> */}
 
       {/* Create a styled button using JSX. Apply inline styles to change its background color and font size. */}
-      <Greetings />
+      {/* <Greetings /> */}
 
       {/* Embedding Expressions:
       Create a functional component called MathOperations that uses JSX to display the result of a mathematical expression. For example, 2 + 3 = 5. */}
-      {/* <MathOperations /> */}
+      <MathOperations />
 
       {/* JSX with Children:
       Create a functional component called ParentChild that has a parent div with two child p elements. Use JSX to render this structure. */}
