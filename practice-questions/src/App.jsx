@@ -1,10 +1,12 @@
 // import "./App.css";
 // import Greetings from "./components/Greetings.jsx";
 // import DynamicContent from "./components/DynamicContent.jsx";
-import ItemList from "./components/ItemList.jsx";
+// import ItemList from "./components/ItemList.jsx";
+
+import ShowMessage from "./components/ShowMessage";
 
 function App() {
-  const items = ['Item 1', 'Item 2', 'Item 3'];
+  // const items = ['Item 1', 'Item 2', 'Item 3'];
   return (
     <>
       {/* JSX Rendering:
@@ -22,7 +24,26 @@ function App() {
 
       {/* List Rendering:
       Create a functional component called ItemList that takes an array of items as a prop and renders an unordered list (ul) using JSX. */}
-      <ItemList items={items} />
+      {/* <ItemList items={items} /> */}
+
+      {/* Conditional Rendering:
+      Create a functional component called ShowMessage that takes a prop show and renders a message only if show is true.
+      Styling in JSX: */}
+      <ShowMessage show={"h"}/>
+
+      {/* Create a styled button using JSX. Apply inline styles to change its background color and font size. */}
+
+      {/* Embedding Expressions:
+      Create a functional component called MathOperations that uses JSX to display the result of a mathematical expression. For example, 2 + 3 = 5. */}
+
+      {/* JSX with Children:
+      Create a functional component called ParentChild that has a parent div with two child p elements. Use JSX to render this structure. */}
+
+      {/* JSX in Maps:
+      Create a functional component called MapExample that takes an object with key-value pairs and renders them using JSX. */}
+
+      {/* Nested JSX:
+      Create a functional component called NestedExample that uses nested JSX to render a more complex structure, such as a form with input fields and a button. */}
     </>
   );
 }
