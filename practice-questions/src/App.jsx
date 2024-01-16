@@ -43,12 +43,6 @@ function App() {
       {/* JSX with Children:
       Create a functional component called ParentChild that has a parent div with two child p elements. Use JSX to render this structure. */}
       <ParentChild />
-
-      {/* JSX in Maps:
-      Create a functional component called MapExample that takes an object with key-value pairs and renders them using JSX. */}
-
-      {/* Nested JSX:
-      Create a functional component called NestedExample that uses nested JSX to render a more complex structure, such as a form with input fields and a button. */}
     </>
   );
 }
