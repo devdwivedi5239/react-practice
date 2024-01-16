@@ -1,11 +1,18 @@
-// JSX Rendering:
-// Create a functional component called Greetings that renders a greeting message with your name using JSX.
-// Render this component in the root of your React application.
-
 
 function greetings() {
+  const buttonStyle = {
+    backgroundColor: 'blue',
+    fontSize: '16px',
+    color: 'white',
+    padding: '10px',
+    borderRadius: '5px',
+    cursor: 'pointer',
+  };
+
   return (
-    <div>greetings Dev</div>
+    <div>
+      <button style={buttonStyle}>Click Me</button>
+    </div>
   )
 }
 
