@@ -12,6 +12,10 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
     {/* Dynamic Content:
     Create a functional component called DynamicContent that takes a prop content and displays it in a paragraph using JSX. */}
-    <DynamicContent prop="I dont know how this works"/>
+    {/* <DynamicContent prop="I dont know how this works"/> */}
+
+    {/* Attributes and Events:
+    Create a button using JSX with an onClick event that logs a message when clicked. */}
+    <DynamicContent />
   </React.StrictMode>
 );

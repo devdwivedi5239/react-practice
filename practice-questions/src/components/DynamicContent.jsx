@@ -1,8 +1,11 @@
+function DynamicContent() {
+  const handleClick = () => console.log("Clicked");
 
-function DynamicContent({prop}) {
   return (
-    <div>DynamicContent component is currently used for displaying {prop}</div>
-  )
+    <div>
+      <button onClick={handleClick}>Click Me</button>
+    </div>
+  );
 }
 
-export default DynamicContent
+export default DynamicContent;
