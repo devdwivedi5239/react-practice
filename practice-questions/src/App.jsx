@@ -1,6 +1,7 @@
 // import "./App.css";
 // import Greetings from "./components/Greetings.jsx";
-import MathOperations from "./components/MathOperations.jsx";
+// import MathOperations from "./components/MathOperations.jsx";
+import ParentChild from "./components/ParentChild.jsx";
 // import DynamicContent from "./components/DynamicContent.jsx";
 // import ItemList from "./components/ItemList.jsx";
 // import ShowMessage from "./components/ShowMessage";
@@ -37,10 +38,11 @@ function App() {
 
       {/* Embedding Expressions:
       Create a functional component called MathOperations that uses JSX to display the result of a mathematical expression. For example, 2 + 3 = 5. */}
-      <MathOperations />
+      {/* <MathOperations /> */}
 
       {/* JSX with Children:
       Create a functional component called ParentChild that has a parent div with two child p elements. Use JSX to render this structure. */}
+      <ParentChild />
 
       {/* JSX in Maps:
       Create a functional component called MapExample that takes an object with key-value pairs and renders them using JSX. */}
